@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-09-15
+
+- Updated the Codex listing manifest to use square Oximy icon artwork in marketplace logo fields.
+- Kept the rectangular Oximy wordmarks available for documentation rather than marketplace icon slots.
+
 ## 0.1.1 - 2026-09-15
 
 - Added the portable Agent Plugins 1.0 manifest used by the shared ChatGPT and Codex plugin directory.

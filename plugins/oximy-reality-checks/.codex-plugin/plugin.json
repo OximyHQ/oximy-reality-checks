@@ -1,6 +1,6 @@
 {
   "name": "oximy-reality-checks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ten evidence-led checks for understanding what AI work touched, changed, remembered, and actually completed.",
   "author": {
     "name": "Oximy",
@@ -24,8 +24,8 @@
       "Find where this agent run first went wrong."
     ],
     "brandColor": "#FF4D00",
-    "logo": "./assets/oximy-logo.svg",
-    "logoDark": "./assets/oximy-logo-on-dark.svg",
+    "logo": "./assets/oximy-icon.svg",
+    "logoDark": "./assets/oximy-icon.svg",
     "composerIcon": "./assets/oximy-icon.svg"
   }
 }

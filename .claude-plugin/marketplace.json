@@ -11,7 +11,7 @@
       "name": "oximy-reality-checks",
       "source": "./plugins/oximy-reality-checks",
       "description": "Trace what AI touched, verify what completed, and expose the human and operational reality of agent work.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {"name": "Oximy"},
       "homepage": "https://github.com/OximyHQ/oximy-reality-checks#readme",
       "repository": "https://github.com/OximyHQ/oximy-reality-checks",

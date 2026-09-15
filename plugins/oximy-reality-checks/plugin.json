@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "oximy-reality-checks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ten evidence-led checks for understanding what AI work touched, changed, remembered, and actually completed.",
   "author": {
     "name": "Oximy",
