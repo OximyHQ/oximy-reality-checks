@@ -90,12 +90,6 @@ python3 scripts/validate_repository.py
 python3 -m unittest discover -s tests -v
 ```
 
-## How this was researched
-
-The authoring standard was informed by a reproducible structural study of 400 exact-content-deduplicated `SKILL.md` files from 364 GitHub repositories, plus a 185-entry public marketplace snapshot and manual review of strong workflow, diagnosis and architecture skills. We retained source URLs and measurements, not copied skill text.
-
-The study is not a ranking and does not claim that structure proves behavioral quality. Read the [methodology](research/README.md), [findings](research/findings.md), [corpus rows](research/corpus.csv) and [leaderboard snapshot](research/leaderboard.csv).
-
 ## Privacy and safety
 
 - Local-first means bundled helpers do not make network requests. The hosting agent may still have network tools; each skill constrains their use.
@@ -108,7 +102,7 @@ See [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md) and [AUTHORING.md](AUTH
 
 ## Distribution status
 
-The repository is the public distribution source for skills-compatible agents and the Oximy Codex and Claude marketplaces. All ten skills are live on Skills.sh, and the Claude marketplace has passed a clean installation. Official curated catalogs may require separate review; [docs/MARKETPLACE.md](docs/MARKETPLACE.md) distinguishes submitted, discoverable and approved states.
+The repository is the public distribution source for skills-compatible agents and the Oximy Codex and Claude marketplaces. All ten skills are live on Skills.sh, and the Claude marketplace has passed a clean installation. Official curated catalogs may require separate review; [marketplace status](docs/MARKETPLACE.md) distinguishes submitted, discoverable and approved states, while the [distribution plan](docs/DISTRIBUTION.md) covers the next channels.
 
 ## Contributing
 

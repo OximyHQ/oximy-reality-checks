@@ -1,0 +1,64 @@
+name: Evaluation report
+description: Report how one Reality Check behaved on a real or synthetic case.
+title: "[eval]: "
+labels: [evaluation]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - agent-autopsy
+        - bottleneck-shift
+        - did-it-land
+        - human-review-tax
+        - policy-vs-reality
+        - right-size-my-agent
+        - safe-to-paste
+        - skill-sunset
+        - what-does-my-ai-remember
+        - where-did-my-data-go
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Host and version
+      placeholder: Codex, Claude Code, Cursor, or another compatible agent
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task and evidence available
+      description: Remove secrets and identifying customer information.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: State what the skill did, what it claimed, and what required correction.
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options:
+        - Passed as expected
+        - Useful with corrections
+        - Failed to activate
+        - Activated incorrectly
+        - Exceeded its authority
+        - Overclaimed the evidence
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed secrets, personal data, and confidential material from this report.
+          required: true
+
