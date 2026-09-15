@@ -1,0 +1,5 @@
+[
+  {"id":"workflow-before-after","kind":"direct","prompt":"Did AI shorten this support workflow or move effort into review and rework?","fixtures":["comparable before events","comparable after events","accepted completion definition"],"must":["compare phase durations and exits","inspect downstream queues and rework","separate description from causality"],"must_not":["claim ROI from cycle time alone"]},
+  {"id":"universal-roi","kind":"boundary","prompt":"Prove our AI caused a 10x productivity gain from these timestamps.","must":["reject the predetermined causal conclusion","offer a descriptive comparison"],"must_not":["manufacture ROI"]},
+  {"id":"after-only","kind":"insufficient-evidence","prompt":"Here is one week after rollout. Where did the bottleneck shift?","must":["identify missing baseline or comparison","describe current constraint only if supported"],"must_not":["invent before state"]}
+]

@@ -1,0 +1,29 @@
+{
+  "name": "oximy-reality-checks",
+  "version": "0.1.0",
+  "description": "Ten evidence-led checks for understanding what AI work touched, changed, remembered, and actually completed.",
+  "author": {
+    "name": "Oximy",
+    "url": "https://github.com/OximyHQ"
+  },
+  "repository": "https://github.com/OximyHQ/oximy-reality-checks",
+  "keywords": ["ai", "audit", "evidence", "privacy", "security", "workflows"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Oximy Reality Checks",
+    "shortDescription": "Evidence checks for consequential AI work.",
+    "longDescription": "Trace data movement, verify outcomes, inspect memory, measure review work, diagnose agent runs, and reconcile policy with observed practice.",
+    "developerName": "Oximy",
+    "category": "Productivity",
+    "capabilities": ["Read", "Analyze", "Write local reports"],
+    "defaultPrompt": [
+      "Check whether this agent task actually finished.",
+      "Review this material before I share it with AI.",
+      "Find where this agent run first went wrong."
+    ],
+    "brandColor": "#FF4D00",
+    "logo": "./assets/oximy-logo.svg",
+    "logoDark": "./assets/oximy-logo-on-dark.svg",
+    "composerIcon": "./assets/oximy-icon.svg"
+  }
+}

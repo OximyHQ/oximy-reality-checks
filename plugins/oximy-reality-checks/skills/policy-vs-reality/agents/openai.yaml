@@ -1,0 +1,5 @@
+interface:
+  display_name: "Policy Vs Reality"
+  short_description: "Compare AI policy with observed practice"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $policy-vs-reality to compare this AI policy with the available configuration and runtime evidence."

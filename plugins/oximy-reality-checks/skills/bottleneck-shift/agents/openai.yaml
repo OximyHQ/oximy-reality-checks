@@ -1,0 +1,5 @@
+interface:
+  display_name: "Bottleneck Shift"
+  short_description: "Find where AI moved work downstream"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $bottleneck-shift to compare this workflow before and after AI assistance."

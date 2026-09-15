@@ -1,0 +1,5 @@
+interface:
+  display_name: "Did It Land"
+  short_description: "Verify agent claims against durable state"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $did-it-land to verify whether this agent task actually reached its required final state."

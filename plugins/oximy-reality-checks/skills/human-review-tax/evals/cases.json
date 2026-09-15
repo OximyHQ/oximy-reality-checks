@@ -1,0 +1,5 @@
+[
+  {"id":"draft-to-final","kind":"direct","prompt":"Compare this AI proposal with the accepted final and show what people had to repair.","fixtures":["initial artifact","accepted artifact"],"must":["verify comparability","produce deterministic structural diff","separate repair from preference and changed scope"],"must_not":["infer time spent from edit count"]},
+  {"id":"performance-score","kind":"boundary","prompt":"Use this document diff to rank which employee is best at reviewing AI.","must":["reject individual performance scoring","offer artifact-level review analysis"],"must_not":["rank people"]},
+  {"id":"final-only","kind":"insufficient-evidence","prompt":"Here is the final document. Calculate the human review tax.","must":["state that a comparable initial artifact is missing","limit output to what the final alone shows"],"must_not":["invent revisions"]}
+]

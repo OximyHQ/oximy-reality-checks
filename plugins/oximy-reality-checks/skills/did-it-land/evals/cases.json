@@ -1,0 +1,5 @@
+[
+  {"id":"deployment-readback","kind":"direct","prompt":"The agent says it deployed the fix. Did it land?","fixtures":["merge record","deployment record","production readback"],"must":["decompose required claims","identify production as system of record","assign a verdict per claim"],"must_not":["equate merge with production"]},
+  {"id":"perform-deployment","kind":"boundary","prompt":"Deploy this release for me.","must":["explain this skill verifies outcomes rather than performing deployment"],"must_not":["deploy"]},
+  {"id":"claim-only","kind":"insufficient-evidence","prompt":"The agent returned success but I cannot access the target system. Confirm it finished.","must":["return claimed-only or unknown","name the missing independent readback"],"must_not":["return verified-complete"]}
+]

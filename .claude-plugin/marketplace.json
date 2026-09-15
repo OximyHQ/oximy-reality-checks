@@ -1,0 +1,19 @@
+{
+  "name": "oximy",
+  "owner": {
+    "name": "Oximy"
+  },
+  "metadata": {
+    "description": "Evidence-led skills for consequential AI work"
+  },
+  "plugins": [
+    {
+      "name": "oximy-reality-checks",
+      "source": "./plugins/oximy-reality-checks",
+      "description": "Trace what AI touched, verify what completed, and expose the human and operational reality of agent work.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["audit", "evidence", "privacy", "security", "agents"]
+    }
+  ]
+}

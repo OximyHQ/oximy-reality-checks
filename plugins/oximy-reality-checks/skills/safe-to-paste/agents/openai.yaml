@@ -1,0 +1,5 @@
+interface:
+  display_name: "Safe to Paste"
+  short_description: "Minimize sensitive data before AI use"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $safe-to-paste to review this material locally before I share it with an AI service."

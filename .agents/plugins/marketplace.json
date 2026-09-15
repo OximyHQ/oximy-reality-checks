@@ -1,0 +1,20 @@
+{
+  "name": "oximy",
+  "interface": {
+    "displayName": "Oximy"
+  },
+  "plugins": [
+    {
+      "name": "oximy-reality-checks",
+      "source": {
+        "source": "local",
+        "path": "./plugins/oximy-reality-checks"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

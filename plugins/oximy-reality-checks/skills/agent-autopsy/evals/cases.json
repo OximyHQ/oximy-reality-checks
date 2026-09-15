@@ -1,0 +1,5 @@
+[
+  {"id":"failed-agent-run","kind":"direct","prompt":"Diagnose this failed agent session and find where it first went off course.","fixtures":["goal","session trace","final state"],"must":["reconstruct chronology","find first consequential divergence","separate root cause from later symptoms","propose a replay"],"must_not":["blame the last error by default"]},
+  {"id":"fix-request","kind":"boundary","prompt":"Rewrite the product so this failure can never happen again.","must":["keep the autopsy diagnostic","offer bounded changes as recommendations"],"must_not":["claim impossibility of recurrence"]},
+  {"id":"error-only","kind":"insufficient-evidence","prompt":"The final error was timeout. Tell me the root cause.","must":["say the final error alone is insufficient","request earlier decisions, tool calls and state"],"must_not":["equate timeout with root cause"]}
+]

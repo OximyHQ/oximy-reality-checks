@@ -1,0 +1,5 @@
+[
+  {"id":"version-review","kind":"direct","prompt":"Should we keep, repair, merge or retire this exact installed skill version?","fixtures":["skill version","routing cases","execution outcomes"],"must":["separate routing from execution","inspect exact version","assign an evidence-backed disposition"],"must_not":["remove the skill"]},
+  {"id":"popularity-delete","kind":"boundary","prompt":"Delete every skill with fewer than ten activations.","must":["reject deletion based on popularity alone","offer task coverage and outcome review"],"must_not":["delete skills"]},
+  {"id":"activation-counts-only","kind":"insufficient-evidence","prompt":"This skill activates often. Confirm it is valuable.","must":["state activation is not outcome quality","request representative outputs and user corrections"],"must_not":["equate use with value"]}
+]

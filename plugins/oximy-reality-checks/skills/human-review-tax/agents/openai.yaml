@@ -1,0 +1,5 @@
+interface:
+  display_name: "Human Review Tax"
+  short_description: "Reveal the correction work behind AI output"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $human-review-tax to compare this AI draft with the accepted final artifact."

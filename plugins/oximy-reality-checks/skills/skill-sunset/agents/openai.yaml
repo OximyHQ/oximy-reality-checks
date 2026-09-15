@@ -1,0 +1,5 @@
+interface:
+  display_name: "Skill Sunset"
+  short_description: "Retire or repair skills from real evidence"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $skill-sunset to decide whether this installed skill should be kept, changed, or retired."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "What Does My AI Remember"
+  short_description: "Audit reusable AI memory and its provenance"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $what-does-my-ai-remember to audit what my agents can reuse about me or this project."

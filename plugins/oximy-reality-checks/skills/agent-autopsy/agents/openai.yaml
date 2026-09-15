@@ -1,0 +1,5 @@
+interface:
+  display_name: "Agent Autopsy"
+  short_description: "Find where an agent trajectory first broke"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $agent-autopsy to diagnose this agent session and identify the first consequential divergence."

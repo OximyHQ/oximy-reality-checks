@@ -1,0 +1,5 @@
+interface:
+  display_name: "Right Size My Agent"
+  short_description: "Derive least privilege from real agent work"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $right-size-my-agent to compare this agent's available access with what its workflows actually need."

@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-09-15T09:12:11Z",
+  "method": "GitHub code search, deduplicated by content SHA-256",
+  "queries": [
+    "filename:SKILL.md",
+    "filename:SKILL.md \"When to use\"",
+    "filename:SKILL.md \"Required Output\"",
+    "filename:SKILL.md \"references/\"",
+    "filename:SKILL.md \"completion\"",
+    "filename:SKILL.md \"evidence\""
+  ],
+  "skills_analyzed": 400,
+  "repositories": 364,
+  "medians": {
+    "bytes": 7743,
+    "lines": 166,
+    "words": 990,
+    "description_chars": 165,
+    "headings": 15,
+    "numbered_steps": 8
+  },
+  "feature_prevalence": {
+    "frontmatter": {
+      "count": 363,
+      "percent": 90.8
+    },
+    "has_when_to_use": {
+      "count": 270,
+      "percent": 67.5
+    },
+    "has_when_not_to_use": {
+      "count": 75,
+      "percent": 18.8
+    },
+    "has_workflow": {
+      "count": 342,
+      "percent": 85.5
+    },
+    "has_completion_criterion": {
+      "count": 16,
+      "percent": 4.0
+    },
+    "has_required_output": {
+      "count": 174,
+      "percent": 43.5
+    },
+    "has_progressive_disclosure": {
+      "count": 175,
+      "percent": 43.8
+    },
+    "has_scripts": {
+      "count": 146,
+      "percent": 36.5
+    },
+    "has_examples": {
+      "count": 216,
+      "percent": 54.0
+    },
+    "has_evidence_language": {
+      "count": 239,
+      "percent": 59.8
+    },
+    "has_unknown_state": {
+      "count": 55,
+      "percent": 13.8
+    },
+    "has_safety_boundary": {
+      "count": 144,
+      "percent": 36.0
+    },
+    "has_explicit_authorization": {
+      "count": 11,
+      "percent": 2.8
+    },
+    "has_machine_readable_output": {
+      "count": 231,
+      "percent": 57.8
+    }
+  },
+  "largest_repository_samples": [
+    [
+      "aimeos/pagible",
+      8
+    ],
+    [
+      "NeuralBlitz/ncx",
+      6
+    ],
+    [
+      "David-Li0406/meta-skill-evloving",
+      5
+    ],
+    [
+      "OutlineDriven/odin-codex-plugin",
+      5
+    ],
+    [
+      "NeuralBlitz/buggy",
+      4
+    ],
+    [
+      "2ord98/spec-coding-manifesto",
+      3
+    ],
+    [
+      "DusanCar-sudo/aura-code",
+      3
+    ],
+    [
+      "Trompetilla/Skills",
+      3
+    ],
+    [
+      "AytuncYildizli/reprompter",
+      2
+    ],
+    [
+      "JantonioFC/skillsbank",
+      2
+    ],
+    [
+      "JiayiV/question_mixing",
+      2
+    ],
+    [
+      "Klotzkette/claude-fuer-deutsches-recht",
+      2
+    ],
+    [
+      "Lord1Egypt/awesome-skill-forge",
+      2
+    ],
+    [
+      "NeuralBlitz/Agent-Gateway",
+      2
+    ],
+    [
+      "Shiien/research-closure-harness",
+      2
+    ],
+    [
+      "DenisSergeevitch/repo-task-proof-loop",
+      1
+    ],
+    [
+      "andrewstellman/quality-playbook",
+      1
+    ],
+    [
+      "Goldentrii/AgentRecall-X",
+      1
+    ],
+    [
+      "Ikalus1988/MisakaNet",
+      1
+    ],
+    [
+      "NewTurn2017/fable-senior-mode",
+      1
+    ]
+  ],
+  "limitations": [
+    "GitHub code search is relevance-ranked, not a random sample.",
+    "The corpus measures written structure, not behavioral effectiveness.",
+    "Repository stars and marketplace installs are analyzed separately.",
+    "Forked or copied text is deduplicated by exact content hash only."
+  ]
+}

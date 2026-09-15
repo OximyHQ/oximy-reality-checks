@@ -1,0 +1,6 @@
+.DS_Store
+.research-cache/
+__pycache__/
+*.pyc
+*.tmp
+

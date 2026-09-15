@@ -1,0 +1,5 @@
+interface:
+  display_name: "Where Did My Data Go"
+  short_description: "Trace one AI task's real data journey"
+  brand_color: "#FF4D00"
+  default_prompt: "Use $where-did-my-data-go to trace where this data moved during the AI task."
