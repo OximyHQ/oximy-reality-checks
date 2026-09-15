@@ -34,6 +34,8 @@ npx skills add OximyHQ/oximy-reality-checks --list
 npx skills add OximyHQ/oximy-reality-checks
 ```
 
+[Browse all ten skills on Skills.sh](https://skills.sh/OximyHQ/oximy-reality-checks).
+
 ### Claude Code
 
 ```sh
@@ -106,7 +108,7 @@ See [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md) and [AUTHORING.md](AUTH
 
 ## Distribution status
 
-The repository is the public distribution source for skills-compatible agents and the Oximy Codex and Claude marketplaces. Official curated catalogs may require separate review; [docs/MARKETPLACE.md](docs/MARKETPLACE.md) distinguishes submitted, discoverable and approved states.
+The repository is the public distribution source for skills-compatible agents and the Oximy Codex and Claude marketplaces. All ten skills are live on Skills.sh, and the Claude marketplace has passed a clean installation. Official curated catalogs may require separate review; [docs/MARKETPLACE.md](docs/MARKETPLACE.md) distinguishes submitted, discoverable and approved states.
 
 ## Contributing
 

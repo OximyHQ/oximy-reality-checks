@@ -96,7 +96,7 @@ def main() -> int:
         except (OSError, json.JSONDecodeError) as error:
             errors.append(f"invalid manifest {manifest.relative_to(ROOT)}: {error}")
 
-    for required in ("README.md", "AUTHORING.md", "PRIVACY.md", "SECURITY.md", "LICENSE", "TRADEMARKS.md"):
+    for required in ("README.md", "AUTHORING.md", "CHANGELOG.md", "PRIVACY.md", "SECURITY.md", "LICENSE", "TRADEMARKS.md"):
         if not (ROOT / required).exists():
             errors.append(f"missing {required}")
 

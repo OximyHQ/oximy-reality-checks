@@ -28,9 +28,9 @@ npx skills add OximyHQ/oximy-reality-checks --list
 
 | Channel | State established by this repository | Stronger state still requiring readback |
 |---|---|---|
-| Skills-compatible agents | Public source with ten discoverable skills | Skills.sh catalog page and security-audit ingestion |
-| Codex | Public Oximy marketplace manifest | Installation in another user's client |
-| Claude Code | Public Oximy marketplace manifest | Official Anthropic marketplace approval |
+| Skills-compatible agents | Public source, clean installation, and ten live Skills.sh pages verified 2026-09-15 | Skills.sh security-audit ingestion |
+| Codex | Public Oximy marketplace manifest and portable-skill installation through the Skills CLI | Clean plugin installation in a separate Codex configuration |
+| Claude Code | Public Oximy marketplace manifest and clean isolated installation verified 2026-09-15 | Official Anthropic marketplace submission and approval |
 
 Before claiming a stronger state:
 
@@ -41,3 +41,9 @@ Before claiming a stronger state:
 - Announce only after durable marketplace readback confirms the listing.
 
 The presence of a manifest proves packaging, not discovery, installation, review or approval.
+
+## Live links
+
+- [GitHub repository](https://github.com/OximyHQ/oximy-reality-checks)
+- [Skills.sh collection](https://skills.sh/OximyHQ/oximy-reality-checks)
+- [Anthropic official marketplace submission](https://platform.claude.com/plugins/submit), not yet submitted
