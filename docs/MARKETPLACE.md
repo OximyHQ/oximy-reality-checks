@@ -1,6 +1,6 @@
-# Marketplace readiness
+# Marketplace distribution
 
-The packaging is ready for private installation, not public release.
+The public repository is the source for portable skill installation and the self-hosted Oximy Codex and Claude marketplaces. An official curated listing is a separate state.
 
 ## Included
 
@@ -10,7 +10,7 @@ The packaging is ready for private installation, not public release.
 - Oximy artwork with provenance
 - Deterministic repository checks, helper tests and behavior-oriented eval fixtures
 
-## Private install checks
+## Install checks
 
 ```sh
 python3 scripts/validate_repository.py
@@ -18,22 +18,26 @@ python3 -m unittest discover -s tests -v
 claude plugin validate --strict .
 ```
 
-After the private GitHub repository exists, also test discovery from a clean temporary environment:
+Test discovery from a clean temporary environment:
 
 ```sh
 npx skills add OximyHQ/oximy-reality-checks --list
 ```
 
-## Public release gates
+## Distribution states
 
-- Approve the exact README, descriptions, artwork and screenshots that will be public.
-- Select a public software/content license.
-- Add a confirmed security contact, privacy URL and terms URL where a marketplace requires them.
+| Channel | State established by this repository | Stronger state still requiring readback |
+|---|---|---|
+| Skills-compatible agents | Public source with ten discoverable skills | Skills.sh catalog page and security-audit ingestion |
+| Codex | Public Oximy marketplace manifest | Installation in another user's client |
+| Claude Code | Public Oximy marketplace manifest | Official Anthropic marketplace approval |
+
+Before claiming a stronger state:
+
 - Run each skill against its eval set in every supported host and record results by host version.
 - Check a clean install from the public repository.
-- Submit to the Claude official marketplace only after the repository is public and approved.
-- Verify the Skills.sh listing after public installation activity makes it discoverable.
+- Submit official-review forms only with their exact final answers recorded.
+- Verify the catalog or marketplace directly after submission and again after approval.
 - Announce only after durable marketplace readback confirms the listing.
 
-No item in the public-release section is represented as completed by the presence of a manifest.
-
+The presence of a manifest proves packaging, not discovery, installation, review or approval.

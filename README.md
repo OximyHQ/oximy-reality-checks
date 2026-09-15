@@ -8,7 +8,7 @@
 
 Oximy Reality Checks are ten local-first agent skills for finding out what an AI touched, what humans had to fix, and whether the work actually finished. Each skill answers one concrete question with an evidence ledger, explicit unknowns, and a completion test.
 
-This repository is a private preview. The skills can be reviewed and installed from the repository, but no public marketplace listing has been submitted.
+The collection is public and installable from this repository. Its self-hosted Codex and Claude marketplaces ship here; official curated-marketplace review is tracked separately.
 
 ## The ten reality checks
 
@@ -26,8 +26,6 @@ This repository is a private preview. The skills can be reviewed and installed f
 | `policy-vs-reality` | Does observed AI use match written policy? | Atomic policy statements and enforcement evidence | Policy-to-practice matrix with explicit gaps |
 
 ## Install
-
-The repository is private, so authenticate with GitHub before using a remote install command.
 
 ### Skills-compatible agents
 
@@ -106,11 +104,12 @@ The study is not a ranking and does not claim that structure proves behavioral q
 
 See [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md) and [AUTHORING.md](AUTHORING.md).
 
-## Private-preview status
+## Distribution status
 
-The Codex and Claude marketplace manifests are included and validated locally. Public submission, a public-repository switch and the final license are intentionally withheld until the release package is approved. [docs/MARKETPLACE.md](docs/MARKETPLACE.md) lists the remaining release gates without pretending they have happened.
+The repository is the public distribution source for skills-compatible agents and the Oximy Codex and Claude marketplaces. Official curated catalogs may require separate review; [docs/MARKETPLACE.md](docs/MARKETPLACE.md) distinguishes submitted, discoverable and approved states.
 
 ## Contributing
 
 Start with [CONTRIBUTING.md](CONTRIBUTING.md). A new check needs a narrow trigger, a non-goal, an evidence model, a deterministic aid where one is useful, adversarial eval cases and a completion test. A clever prompt is not enough.
 
+The code and written skill instructions are available under the [MIT License](LICENSE). Oximy names and logo artwork are not licensed for reuse; see [TRADEMARKS.md](TRADEMARKS.md).

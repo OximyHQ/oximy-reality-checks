@@ -7,6 +7,8 @@
     "url": "https://github.com/OximyHQ"
   },
   "repository": "https://github.com/OximyHQ/oximy-reality-checks",
+  "homepage": "https://github.com/OximyHQ/oximy-reality-checks#readme",
+  "license": "MIT",
   "keywords": ["ai", "audit", "evidence", "privacy", "security", "workflows"],
   "skills": "./skills/",
   "interface": {

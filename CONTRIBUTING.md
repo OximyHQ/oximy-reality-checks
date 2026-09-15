@@ -1,6 +1,6 @@
 # Contributing
 
-This repository is in private preview. Propose changes through a branch and pull request; do not publish or mirror the collection without an explicit release decision.
+Propose changes through a branch and pull request. By contributing, you agree that your contribution may be distributed under the repository's MIT License.
 
 ## Make a change
 
@@ -17,4 +17,3 @@ This repository is in private preview. Propose changes through a branch and pull
 5. In the pull request, distinguish deterministic test results from unperformed live-agent evaluation.
 
 Do not add a dependency unless the standard library cannot express the required check and the provenance, maintenance and security cost is justified.
-
