@@ -88,6 +88,7 @@ def main() -> int:
     for manifest in (
         ROOT / ".agents/plugins/marketplace.json",
         ROOT / ".claude-plugin/marketplace.json",
+        PLUGIN / "plugin.json",
         PLUGIN / ".codex-plugin/plugin.json",
         PLUGIN / ".claude-plugin/plugin.json",
     ):
@@ -95,6 +96,25 @@ def main() -> int:
             json.loads(manifest.read_text())
         except (OSError, json.JSONDecodeError) as error:
             errors.append(f"invalid manifest {manifest.relative_to(ROOT)}: {error}")
+
+    portable_manifest_path = PLUGIN / "plugin.json"
+    if portable_manifest_path.exists():
+        try:
+            portable_manifest = json.loads(portable_manifest_path.read_text())
+            if portable_manifest.get("$schema") != "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json":
+                errors.append("portable plugin manifest uses an unsupported schema")
+            if portable_manifest.get("name") != "oximy-reality-checks":
+                errors.append("portable plugin manifest name mismatch")
+            versions = {
+                portable_manifest.get("version"),
+                json.loads((PLUGIN / ".codex-plugin/plugin.json").read_text()).get("version"),
+                json.loads((PLUGIN / ".claude-plugin/plugin.json").read_text()).get("version"),
+                json.loads((ROOT / ".claude-plugin/marketplace.json").read_text())["plugins"][0].get("version"),
+            }
+            if len(versions) != 1:
+                errors.append(f"plugin versions do not match: {sorted(str(version) for version in versions)}")
+        except (OSError, json.JSONDecodeError, KeyError, TypeError) as error:
+            errors.append(f"unable to verify portable manifest compatibility: {error}")
 
     for required in ("README.md", "AUTHORING.md", "CHANGELOG.md", "PRIVACY.md", "SECURITY.md", "LICENSE", "TRADEMARKS.md"):
         if not (ROOT / required).exists():

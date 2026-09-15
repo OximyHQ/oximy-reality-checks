@@ -1,6 +1,7 @@
 ---
 name: where-did-my-data-go
 description: Reconstruct the data journey of a specific AI task from local traces, tool configuration, logs, and artifacts. Use when someone asks what an agent read, transmitted, processed, stored, remembered, displayed, or reported. Do not infer vendor retention or deletion from local traffic evidence alone.
+license: MIT
 ---
 
 # Where Did My Data Go?

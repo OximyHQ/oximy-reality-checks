@@ -1,6 +1,7 @@
 ---
 name: what-does-my-ai-remember
 description: Audit persistent information an AI agent can reuse across sessions, including provenance, sensitivity, staleness, contradictions, scope, and deletion evidence. Use when someone asks what an assistant remembers about them or a project, or wants a memory cleanup plan. Do not delete or rewrite memories without explicit approval.
+license: MIT
 ---
 
 # What Does My AI Remember?

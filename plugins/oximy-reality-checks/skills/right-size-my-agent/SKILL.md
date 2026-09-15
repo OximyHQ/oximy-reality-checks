@@ -1,6 +1,7 @@
 ---
 name: right-size-my-agent
 description: Compare an agent's configured capabilities with observed tool use and propose a least-privilege configuration for defined workflows. Use when someone wants to reduce agent permissions, MCP access, filesystem scope, network reach, or approval bypasses. Do not apply permission changes or infer safe denial from non-use alone.
+license: MIT
 ---
 
 # Right-Size My Agent

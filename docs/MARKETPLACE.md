@@ -1,11 +1,11 @@
 # Marketplace distribution
 
-The public repository is the source for portable skill installation and the self-hosted Oximy Codex and Claude marketplaces. An official curated listing is a separate state.
+The public repository is the source for portable skill installation and the self-hosted Oximy Codex and Claude marketplaces. OpenAI and Anthropic public directory listings are separate review states.
 
 ## Included
 
 - Portable `skills/<name>/SKILL.md` packages for skills-compatible agents
-- Codex plugin manifest and repository marketplace catalog
+- Portable Agent Plugins 1.0 manifest, Codex compatibility manifest and repository marketplace catalog
 - Claude plugin manifest and repository marketplace catalog
 - Oximy artwork with provenance
 - Deterministic repository checks, helper tests and behavior-oriented eval fixtures
@@ -29,7 +29,7 @@ npx skills add OximyHQ/oximy-reality-checks --list
 | Channel | State established by this repository | Stronger state still requiring readback |
 |---|---|---|
 | Skills-compatible agents | Public source, clean installation, and ten live Skills.sh pages verified 2026-09-15 | Skills.sh security-audit ingestion |
-| Codex | Public Oximy marketplace manifest and portable-skill installation through the Skills CLI | Clean plugin installation in a separate Codex configuration |
+| ChatGPT and Codex | Public Oximy marketplace manifest and portable-skill installation through the Skills CLI | OpenAI universal Plugins Directory submission, review, approval and publication |
 | Claude Code | Public Oximy marketplace manifest and clean isolated installation verified 2026-09-15 | Official Anthropic marketplace submission and approval |
 
 Before claiming a stronger state:
@@ -46,4 +46,5 @@ The presence of a manifest proves packaging, not discovery, installation, review
 
 - [GitHub repository](https://github.com/OximyHQ/oximy-reality-checks)
 - [Skills.sh collection](https://skills.sh/OximyHQ/oximy-reality-checks)
+- [OpenAI universal plugin submission portal](https://platform.openai.com/plugins), not yet submitted
 - [Anthropic official marketplace submission](https://platform.claude.com/plugins/submit), not yet submitted

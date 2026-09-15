@@ -1,6 +1,7 @@
 ---
 name: bottleneck-shift
 description: Compare a workflow before and after AI assistance to determine whether work disappeared or moved into review, waiting, correction, exception handling, or rework. Use when someone asks whether AI improved an end-to-end process rather than one production step. Do not claim causal impact from an uncontrolled before-and-after comparison.
+license: MIT
 ---
 
 # Bottleneck Shift

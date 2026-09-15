@@ -13,7 +13,28 @@ The collection should be distributed as a useful diagnostic instrument, not as a
 
 ## Highest-value submissions
 
-### 1. Anthropic's official plugin directory
+### 1. OpenAI's universal Plugins Directory
+
+Why: one approved public listing is discoverable in both ChatGPT and Codex. Skills-only plugins are eligible.
+
+Submit: [OpenAI plugin submission portal](https://platform.openai.com/plugins)
+
+Exact proposed listing:
+
+- Name: `Oximy Reality Checks`
+- Short description: `Verify what AI touched, changed, remembered, and actually completed.`
+- Long description: `Ten local-first checks for consequential AI work. Trace where data moved, review what an agent can remember, compare AI drafts with accepted work, right-size agent access, diagnose failed runs, and verify claimed outcomes against durable systems of record. Every check separates evidence from inference, preserves unknowns, and ends with a visible completion criterion.`
+- Category: `Productivity`
+- Website: `https://github.com/OximyHQ/oximy-reality-checks`
+- Support: `https://github.com/OximyHQ/oximy-reality-checks/issues`
+- Privacy: `https://oximy.com/privacy`
+- Terms: `https://oximy.com/terms`
+
+OpenAI requires five positive and three negative review cases for a skills submission. Keep the exact cases and release notes in the approval packet rather than copying a review fixture into public marketing copy.
+
+Do not describe the package as submitted, approved or published until the portal and directory independently show those states.
+
+### 2. Anthropic's official plugin directory
 
 Why: it is built into Claude Code and is also surfaced to Claude users. This is the highest-leverage reviewed listing.
 
@@ -29,15 +50,15 @@ Exact proposed listing:
 
 Do not describe this as accepted or listed until the official directory returns that state.
 
-### 2. SkillMD
+### 3. SkillMD
 
-Why: cross-agent discovery, safety review and per-skill capability flags. Publish the repository as a pack rather than manually uploading stale copies.
+Why: cross-agent discovery, safety review and per-skill capability flags. Publish each check from its source folder as a pack so its deterministic helper, references and eval fixtures stay attached.
 
 Submit: [SkillMD publishing documentation](https://skillmd.com/docs/cli)
 
-Run its dry-run lint first. Because the registry requires an account token for publication, record the final lint output and submission receipt separately.
+All ten source folders pass the registry's strict lint at 100/100 and its pack publication dry-run. Because publication requires an account token, record each final submission receipt separately.
 
-### 3. agentskill.sh
+### 4. agentskill.sh
 
 Why: GitHub import, daily synchronization, author verification, analytics and skillset bundling.
 
@@ -45,7 +66,7 @@ Submit: [agentskill.sh repository import](https://agentskill.sh/submit)
 
 Import `OximyHQ/oximy-reality-checks`, connect the Oximy GitHub organization for ownership, and enable a push webhook only after reviewing the requested permissions.
 
-### 4. ClawHub
+### 5. ClawHub
 
 Why: native discovery for OpenClaw users and visible scan status. Publish each skill independently so users can install only the check they need.
 
@@ -58,6 +79,11 @@ Use `clawhub skill publish --dry-run` on all ten folders first. The first public
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) has strong reach but explicitly asks new projects to establish real community usage before submitting. Do not send a premature PR.
 - Smaller security-aware or cross-agent awesome lists can be approached after independent users, issue history and stable releases exist.
 - GitHub Topics already provide durable discovery. Keep `agent-skills`, `ai-agents`, `ai-safety`, `privacy` and `security`; avoid tag stuffing.
+
+## Additional reviewed visibility
+
+- [OpenAI Developer Showcase](https://developers.openai.com/showcase) can feature a concrete build story after the universal plugin submission is in review. Lead with a reproducible `did-it-land` example, not a general product pitch.
+- GitHub Marketplace is not a fit for a standalone skill repository unless this becomes a GitHub App or Action. Do not manufacture a wrapper only to obtain a listing.
 
 ## The launch should feature three checks
 
@@ -93,4 +119,3 @@ Do not cross-post identical launch copy. The evidence example should match the c
 - Repeat usage and version retention
 
 Stars, impressions and directory rank are discovery signals. They do not establish that a Reality Check improved an outcome.
-

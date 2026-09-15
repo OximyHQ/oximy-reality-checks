@@ -1,12 +1,21 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "oximy-reality-checks",
   "version": "0.1.1",
   "description": "Ten evidence-led checks for understanding what AI work touched, changed, remembered, and actually completed.",
   "author": {
-    "name": "Oximy"
+    "name": "Oximy",
+    "url": "https://oximy.com"
   },
-  "repository": "https://github.com/OximyHQ/oximy-reality-checks",
   "homepage": "https://github.com/OximyHQ/oximy-reality-checks#readme",
+  "repository": "https://github.com/OximyHQ/oximy-reality-checks",
   "license": "MIT",
-  "keywords": ["ai", "audit", "evidence", "privacy", "security", "workflows"]
+  "keywords": [
+    "ai",
+    "audit",
+    "evidence",
+    "privacy",
+    "security",
+    "workflows"
+  ]
 }

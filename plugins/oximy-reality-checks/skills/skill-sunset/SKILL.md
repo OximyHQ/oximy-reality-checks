@@ -1,6 +1,7 @@
 ---
 name: skill-sunset
 description: Decide whether an installed agent skill should be kept, narrowed, revised, merged, quarantined, or retired using real activation and outcome evidence. Use when skills are stale, conflicting, noisy, costly, unused, or suspected of worsening work. Do not delete or rewrite a skill without explicit approval.
+license: MIT
 ---
 
 # Skill Sunset

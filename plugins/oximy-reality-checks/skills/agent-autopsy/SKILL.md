@@ -1,6 +1,7 @@
 ---
 name: agent-autopsy
 description: Reconstruct a completed, failed, expensive, or confusing agent session to find where its trajectory broke and what one change would prevent recurrence. Use when investigating post-hoc session diagnosis, tool-loop analysis, goal drift, premature completion, or repeated human rescue. Do not use as employee performance scoring.
+license: MIT
 ---
 
 # Agent Autopsy

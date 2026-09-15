@@ -1,6 +1,7 @@
 ---
 name: did-it-land
 description: Reconcile an AI agent's completion claims with durable evidence in the relevant system of record. Use when someone asks whether agent work actually finished, shipped, sent, changed, or reached production. Do not use a passing local check as proof of an unobserved remote or real-world state.
+license: MIT
 ---
 
 # Did It Land?

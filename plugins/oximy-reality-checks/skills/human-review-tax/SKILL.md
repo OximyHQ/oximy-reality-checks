@@ -1,6 +1,7 @@
 ---
 name: human-review-tax
 description: Compare an AI-produced artifact with the accepted final artifact and quantify the human correction and review it required. Use when someone asks whether AI saved work or shifted effort into editing, review, rework, or escalation. Do not infer time saved, authorship, or causality from a text diff alone.
+license: MIT
 ---
 
 # Human Review Tax

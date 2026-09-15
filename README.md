@@ -8,7 +8,7 @@
 
 Oximy Reality Checks are ten local-first agent skills for finding out what an AI touched, what humans had to fix, and whether the work actually finished. Each skill answers one concrete question with an evidence ledger, explicit unknowns, and a completion test.
 
-The collection is public and installable from this repository. Its self-hosted Codex and Claude marketplaces ship here; official curated-marketplace review is tracked separately.
+The collection is public and installable from this repository. Portable Agent Plugins, Codex, and Claude marketplace manifests ship here; official directory review is tracked separately.
 
 ## The ten reality checks
 
@@ -102,7 +102,7 @@ See [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md) and [AUTHORING.md](AUTH
 
 ## Distribution status
 
-The repository is the public distribution source for skills-compatible agents and the Oximy Codex and Claude marketplaces. All ten skills are live on Skills.sh, and the Claude marketplace has passed a clean installation. Official curated catalogs may require separate review; [marketplace status](docs/MARKETPLACE.md) distinguishes submitted, discoverable and approved states, while the [distribution plan](docs/DISTRIBUTION.md) covers the next channels.
+The repository is the public distribution source for skills-compatible agents and the Oximy Codex and Claude marketplaces. All ten skills are live on Skills.sh, and the Claude marketplace has passed a clean installation. The skills-only package also uses the portable Agent Plugins 1.0 manifest required for OpenAI's shared ChatGPT and Codex directory. Official catalogs still require separate review; [marketplace status](docs/MARKETPLACE.md) distinguishes prepared, submitted, discoverable and approved states, while the [distribution plan](docs/DISTRIBUTION.md) covers the next channels.
 
 ## Contributing
 

@@ -1,6 +1,7 @@
 ---
 name: policy-vs-reality
 description: Compare written AI policy with observed agent configuration and runtime evidence, producing a non-accusatory mismatch ledger. Use when someone wants to test whether approved tools, data rules, permissions, retention, review gates, or prohibited actions match practice. Do not use individual activity as a proxy for intent or misconduct.
+license: MIT
 ---
 
 # Policy vs Reality

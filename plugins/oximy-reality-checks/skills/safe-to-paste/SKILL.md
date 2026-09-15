@@ -1,6 +1,7 @@
 ---
 name: safe-to-paste
 description: Inspect text or files before they are shared with an AI service, make a task-preserving redacted copy, and explain residual exposure. Use when someone asks whether material is safe to paste or upload, or wants sensitive content sanitized for AI use. Do not treat the result as legal approval or a guarantee of vendor handling.
+license: MIT
 ---
 
 # Safe to Paste
