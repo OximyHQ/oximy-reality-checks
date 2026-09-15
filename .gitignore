@@ -1,6 +1,6 @@
 .DS_Store
 .research-cache/
+.context/
 __pycache__/
 *.pyc
 *.tmp
-

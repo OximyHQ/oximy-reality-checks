@@ -8,5 +8,5 @@ First public release.
 - One dependency-free deterministic helper per skill.
 - Thirty routing and adversarial evaluation cases.
 - Portable Skills, Codex plugin and Claude marketplace packaging.
-- Reproducible structural research corpus and explicit authoring standard.
+- Explicit authoring and evaluation standards.
 - MIT-licensed code and written instructions, with Oximy brand assets reserved separately.
